@@ -1,0 +1,14 @@
+{
+  "name": "insight",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  },
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "https://bch-insight.bitpay.com/api"
+    }
+  ]
+}
